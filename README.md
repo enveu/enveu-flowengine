@@ -11,7 +11,7 @@ Connect your CMS, AI services, encoding platforms, storage systems, and publishi
 <p align="center">
 
 <a href="https://www.enveu.com/flowengine">
-<img src="https://img.shields.io/badge/Get-Early%20Access-cc0201?style=for-the-badge">
+<img src="https://img.shields.io/badge/Visit-FlowEngine-cc0201?style=for-the-badge">
 </a>
 
 <a href="https://www.enveu.com/flowengine/use-cases">
@@ -30,7 +30,7 @@ Connect your CMS, AI services, encoding platforms, storage systems, and publishi
 <img src="https://img.shields.io/badge/Integrations-18+-black">
 <img src="https://img.shields.io/badge/Deployment-SaaS%20%7C%20Cloud%20%7C%20OnPrem-orange">
 <img src="https://img.shields.io/badge/No-Code-green">
-<img src="https://img.shields.io/badge/Status-Early%20Access-blue">
+<img src="https://img.shields.io/badge/MediaOps-Automation-blue">
 
 </p>
 
@@ -38,25 +38,26 @@ Connect your CMS, AI services, encoding platforms, storage systems, and publishi
 
 ---
 
-## Give wings to your media workflows.
+## Give wings to your media workflows
 
-Media teams work across disconnected systems:
+Media operations teams work across disconnected systems:
 
 - Video platforms
 - AI services
 - Storage systems
 - Metadata tools
 - CMS platforms
+- Publishing systems
 - Social platforms
-- Notification systems
+- Notification tools
 
 Most teams still rely on scripts, spreadsheets, and manual handoffs.
 
-Flow sits in the middle of your stack and orchestrates everything.
+FlowEngine acts as a media orchestration layer that connects these systems and automates operational workflows.
 
 ---
 
-## Architecture
+# Architecture
 
 ```text
 ┌────────────┐
@@ -86,8 +87,8 @@ Flow sits in the middle of your stack and orchestrates everything.
 │ OTT Platforms       │
 │ Metadata            │
 │ Subtitles           │
-│ Social Platforms    │
 │ Notifications       │
+│ Social Platforms    │
 └─────────────────────┘
 ```
 
@@ -95,7 +96,7 @@ Flow sits in the middle of your stack and orchestrates everything.
 
 # Workflow Example
 
-### Live → VoD automation
+### Live → VoD Automation
 
 ```text
 Live Event Ends
@@ -113,49 +114,62 @@ CMS publishing
 Slack notification sent
 ```
 
-**Result:** Under 25 minutes from stream end to published VoD.
+**Result:** Publish VoD automatically with minimal operational effort.
 
 ---
 
-## Design. Connect. Execute.
+# Design. Connect. Execute.
 
-### 🎨 Design
+<table>
+<tr>
 
-Build workflows visually.
+<td width="33%">
 
-Features:
+## 🎨 Design
 
-- Drag and drop workflow builder
-- Versionable workflows
-- Reusable templates
-- Expression-based logic
-
----
-
-### 🔗 Connect
-
-Connect existing systems.
+Build workflows visually
 
 Features:
 
-- Plugin-based integrations
-- Schema driven configuration
-- Credential management
+- Drag and drop builder
+- Workflow templates
+- Reusable components
+- Conditional logic
+
+</td>
+
+<td width="33%">
+
+## 🔗 Connect
+
+Connect systems
+
+Features:
+
+- Plugin architecture
 - API support
+- Credential management
+- Event triggers
 
----
+</td>
 
-### ⚡ Execute
+<td width="33%">
 
-Run workflows with visibility.
+## ⚡ Execute
+
+Run with visibility
 
 Features:
 
-- Input/output inspection
 - Retry logic
 - Audit logs
-- Real-time monitoring
-- Error debugging
+- Execution history
+- Monitoring
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -164,9 +178,10 @@ Features:
 <table>
 
 <tr>
+
 <td width="50%">
 
-### Live → VoD
+## Live → VoD
 
 Automate:
 
@@ -180,14 +195,14 @@ Automate:
 
 <td width="50%">
 
-### Multilingual Metadata
+## Multilingual Metadata
 
 Automate:
 
 - Translation
-- Glossary enforcement
+- Localization
 - CMS updates
-- Localization workflows
+- Content enrichment
 
 </td>
 
@@ -197,26 +212,54 @@ Automate:
 
 <td width="50%">
 
-### Auto Multi-Audio & Subtitles
+## Multi-Audio & Subtitles
 
 Automate:
 
-- AI subtitle generation
-- Audio dubbing
-- Language workflows
+- AI subtitles
+- Audio workflows
+- Caption generation
 
 </td>
 
 <td width="50%">
 
-### Social Publishing
+## Social Publishing
 
 Automate:
 
 - Captions
-- Hashtags
 - Scheduling
+- Publishing
 - Distribution
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+## Clips & Highlights
+
+Automate:
+
+- Highlight generation
+- Clip extraction
+- Short-form content creation
+
+</td>
+
+<td width="50%">
+
+## Content Migration
+
+Automate:
+
+- Bulk migration
+- Metadata migration
+- Asset transfer
 
 </td>
 
@@ -228,30 +271,30 @@ Automate:
 
 # Supported Integrations
 
-### Video Platforms
+## Video Platforms
 
 - Brightcove
 - Mux
-- Wowza
 - JW Player
 - Vimeo
+- Wowza
 
-### AI Services
+## AI Services
 
 - OpenAI
 - ElevenLabs
-- Gladia
 - AWS Translate
+- Gladia
 
-### Communication
+## Communication
 
 - Slack
 - Microsoft Teams
 
-### Storage & Delivery
+## Storage & Delivery
 
 - Amazon S3
-- HTTP APIs
+- REST APIs
 
 ---
 
@@ -263,29 +306,29 @@ Automate:
 
 ✅ Sports Organizations
 
-✅ News Teams
-
 ✅ Media Engineering Teams
 
 ✅ Content Owners
+
+✅ Digital Publishers
 
 ---
 
 # Deployment Options
 
 | Type | Description |
-|---|---|
-| SaaS | Managed infrastructure with automatic updates |
-| On-Premises | Deploy inside your infrastructure |
-| Cloud Agnostic | AWS, Azure, GCP or private cloud |
+|-------|-------------|
+| SaaS | Managed cloud deployment |
+| On-premise | Deploy in your infrastructure |
+| Cloud Agnostic | AWS, Azure, GCP |
 
 ---
 
-# Why Teams Use Flow
+# Why Teams Use FlowEngine
 
 ✓ Reduce repetitive work
 
-✓ Faster turnaround time
+✓ Faster content turnaround
 
 ✓ Eliminate manual handoffs
 
@@ -299,28 +342,21 @@ Automate:
 
 # Roadmap
 
-- [ ] Workflow Templates Marketplace
-- [ ] Community Workflow Library
+- [ ] Workflow Marketplace
+- [ ] Community Templates
 - [ ] AI Workflow Recommendations
+- [ ] Advanced Analytics
 - [ ] Additional Integrations
-- [ ] Analytics Dashboard
-- [ ] Advanced Workflow Insights
+- [ ] Workflow Insights
 
 ---
 
-## Early Access
-
-Join the founding cohort and get:
-
-- Priority onboarding
-- Architecture walkthrough
-- Early workflow templates
-- Roadmap access
+## Learn More
 
 <p align="center">
 
 <a href="https://www.enveu.com/flowengine">
-<img src="https://img.shields.io/badge/Request-Early%20Access-cc0201?style=for-the-badge">
+<img src="https://img.shields.io/badge/Visit-FlowEngine-cc0201?style=for-the-badge">
 </a>
 
 </p>
